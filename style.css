@@ -73,7 +73,7 @@ nav img{
 
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -162,6 +162,12 @@ p{
 .row{
     margin-top: 5%;
     display: flex;
+    justify-content: space-between;
+}
+
+.col{
+    margin-top: 5%;
+    display: block;
     justify-content: space-between;
 }
 
@@ -320,6 +326,30 @@ h3{
     }
 }
 
+/* database */
+.data{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/library.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.data h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+@media(max-width:700px){
+    .data h1{
+        font-size: 24px;
+    }
+}
+
 /* join us now */
 .join{
     margin: 100px auto;
@@ -352,8 +382,8 @@ h3{
 }
 
 .footer h4{
-    margin-bottom: 25px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-weight: 600;
 }
 
@@ -366,4 +396,75 @@ h3{
 
 .fa-heart-o{
     color: #f44336;
+}
+
+.about{
+    width: 70%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.about h1{
+    font-size: 62px;
+}
+
+.about p{
+    margin: 10px 0 40px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+}
+
+/* board */
+.board{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.board-col{
+    /* flex-basis: 44%; */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    background: #fff3f3;
+    padding: 25px;
+    /* cursor: pointer; */
+    display: block;
+}
+
+.board-col img{
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.board-col h3{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 24px;
+}
+
+@media(max-width: 700px){
+    .board-col img{
+        height: 200px;
+    }
+}
+
+.statement{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.statement p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    color: #777;
 }

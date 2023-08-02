@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Presearch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="img/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./about.html">ABOUT US</a></li>
+                        <li><a href="./data.html">RESOURCE DATABASE</a></li>
+                        <li><a href="./train.html">TRAINING</a></li>
+                        <li><a href="./contact.html">CONTACT AND OUTREACH</a></li>
+                        <li><a href="./fund.html">FUNDRAISER & DONATION</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="about">
+                <h1>About Us</h1>
+                <p>Presearch is a student-run research organization founded in October 2022 seeking to promote high school research and provide resources to facilitate high schoolers to initiate professional research.</p>
+            </div>
+        </section>
+        <!-- presearch board -->
+        <section class="board">
+            <h1>Our Board Members</h1>
+            <div class="col">
+                <div class="board-col">
+                    <img src="img/user1.jpg">
+                    <div>
+                        <h3>David Gong</h3>
+                    </div>
+                </div>
+                <div class="board-col">
+                    <img src="img/user2.jpg">
+                    <div>
+                        <h3>Kevin Gong</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- mission statement -->
+        <section class="statement">
+            <h1>Mission Statement</h1>
+                <p>We at Presearch are united by our shared passion in science and research, and we all believe in advancing the cause of high school research. Many of us have and continue to experience and face the pain of carving out research out of the deep jungle of journal articles and professional academia. I'm sure we have all felt at some point or another as if we were feeling our way through the dark and have wished for a light to guide us through the steps we need to take to carry out our research.
+
+                <br><br>We, Presearch, seek to change that. Our collective knowledge and intelligence as accoladed researchers from the Academy of Science & Technology is broad and far reaching, and we have much to learn from each other and much we can do to help each other. It is high time that we organize and unite to form a collective effort to guide others in their research as well as each other and establish a student-run organization in high school research for any aspiring researcher who is searching for resources and guidance.
+                    
+                <br><br>It is the idea that we need to organize high school research, that it will no longer be every man for themselves, but a concerted and methodic front of research. 
+                    
+                <br><br>It is our ultimate goal to lead, organize, communicate and inspire high school research. We will work to establish a journal for high schoolers who seek to walk through the process of publication, we will work to build a resource repository and gateway to ease students into high level research and we will work to expand and connect the community of high school researchers.
+
+                <br><br>In this time of change at the Academy, and the loss of Dr. Fox as a crucial source of guidance, we researchers of the Academy of Science & Technology believe firmly in a collective effort amongst students to compliment that of our sponsors’ guidance. We collectively recognize the necessity of establishing a community for high school researchers like us, building a collective voice for our community and facilitating research for all. Professional academia has never been a solo effort, and involves peer collaboration and guidance for mutual improvement, building a foundation of collective knowledge and the communication of ideas through publication. We, as researchers of the Academy of Science & Technology, seek to devote our efforts to the improvement of Academy research as a whole and here propose to establish a means of organization and community amongst our peers.
+                </p>
+        </section>
+        <!-- Footer -->
+        <section class="footer">
+            <h4>Presearch</h4>
+            <p>Passion. Service. Science. Research.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Presearch</p>
+        </section>
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById('navLinks');
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
