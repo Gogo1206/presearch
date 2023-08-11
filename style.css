@@ -506,4 +506,13 @@ h3{
     width: 50%;
     display: flex;
     justify-content: space-between;
+    width: auto;
+}
+
+@media(max-width: 700px){
+    .data-row{
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 10px;
+    }
 }
