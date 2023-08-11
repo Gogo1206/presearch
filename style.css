@@ -57,7 +57,7 @@ nav img{
 
 }
 
-.text-box{
+.title{
     width: 90%;
     color: #fff;
     position: absolute;
@@ -67,11 +67,11 @@ nav img{
     text-align: center;
 }
 
-.text-box h1{
+.title h1{
     font-size: 62px;
 }
 
-.text-box p{
+.title p{
     margin: 10px 0 40px;
     font-size: 18px;
     color: #fff;
@@ -100,12 +100,11 @@ nav .fa{
 }
 
 @media(max-width:700px){
-    .text-box h1{
+    .title h1{
         font-size: 20px;
     }
 
-    .text-box p{
-        
+    .title p{
         font-size: 12px;
     }
 
@@ -406,7 +405,7 @@ h3{
     color: #f44336;
 }
 
-.about{
+.text-box{
     width: 70%;
     color: #fff;
     position: absolute;
@@ -416,11 +415,11 @@ h3{
     text-align: center;
 }
 
-.about h1{
+.text-box h1{
     font-size: 62px;
 }
 
-.about p{
+.text-box p{
     margin-top: 20px;
     font-size: 18px;
     font-weight: 200;
@@ -428,11 +427,11 @@ h3{
 }
 
 @media(max-width:700px){
-    .about h1{
+    .text-box h1{
         font-size: 20px;
     }
 
-    .about p{
+    .text-box p{
         
         font-size: 12px;
     }
