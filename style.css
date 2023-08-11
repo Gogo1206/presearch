@@ -87,6 +87,7 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    margin: auto;
 }
 
 .hero-btn:hover{
@@ -468,6 +469,10 @@ h3{
     font-size: 24px;
 }
 
+.board-col p{
+    padding: 0;
+}
+
 @media(max-width: 700px){
     .board-col img{
         height: 200px;
@@ -495,4 +500,11 @@ h3{
     .statement{
         margin-top: 50px;
     }
+}
+
+.data-row{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
