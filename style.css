@@ -150,8 +150,8 @@ nav .fa{
     }
 }
 
-/* achievements */
-.achievements{
+/* contribution */
+.contribution{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -190,7 +190,7 @@ p{
     }
 }
 
-.achievements-col{
+.contribution-col{
     flex-basis: 31%;
     background: var(--light);
     border-radius: 10px;
@@ -206,7 +206,7 @@ h3{
     margin: 10px 0;
 }
 
-.achievements-col:hover{
+.contribution-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
