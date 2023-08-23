@@ -596,9 +596,9 @@ h3{
 
 .resource-col a:hover{
     border: 1px solid #000;
-    background-color: var(--light);
-    color: #777;
-    transition: 1s;
+    background-color: var(--dark);
+    color: #fff;
+    transition: 0.5s;
 }
 
 @media(max-width: 700px){
