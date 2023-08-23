@@ -582,4 +582,8 @@ h3{
     .resource{
         margin-top: 50px;
     }
+
+    .resource-col a{
+        font-size: 12px;
+    }
 }
