@@ -98,6 +98,7 @@ nav img{
     cursor: pointer;
     margin: auto;
     width: 30%;
+    text-align: center;
 }
 
 .hero-btn:hover{
@@ -151,6 +152,10 @@ nav .fa{
 
     .title a{
         font-size: 16px;
+    }
+
+    .hero-btn{
+        font-size: 12px;
     }
 }
 
@@ -546,14 +551,32 @@ h3{
     margin-top: 80px;
 }
 
-.resource-col{
-    /* flex-basis: 44%; */
-    border-radius: 10px;
-    margin-bottom: 5%;
+.resource h1{
+    margin-bottom: 20px;
+}
+
+.resource-row{
+    width: 80%;
+    margin: auto;
     text-align: center;
-    padding: 25px;
-    /* cursor: pointer; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.resource-col{
+    margin: auto;
+    text-align: center;
     display: block;
+    background: var(--light);
+    border-radius: 10px;
+    flex-basis: 40%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.resource-col h3{
+    margin-bottom: 5%;
 }
 
 .resource-col a{
@@ -567,7 +590,7 @@ h3{
     position: relative;
     cursor: pointer;
     margin: auto;
-    width: 30%;
+    width: 50%;
     margin-bottom: 10px;
 }
 
@@ -581,6 +604,14 @@ h3{
 @media(max-width: 700px){
     .resource{
         margin-top: 50px;
+    }
+
+    .resource-row{
+        flex-direction: column;
+    }
+
+    .resource-col{
+        margin-bottom: 10px;
     }
 
     .resource-col a{
