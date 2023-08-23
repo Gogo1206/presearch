@@ -526,7 +526,7 @@ h3{
 .data-row{
     margin: auto;
     margin-top: 25px;
-    width: 70%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
 }
