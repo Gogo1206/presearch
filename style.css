@@ -618,3 +618,19 @@ h3{
         font-size: 12px;
     }
 }
+
+.equipment{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.equipment img{
+    width: 70%;
+    height: auto;
+}
+
+.equipment p{
+    font-size: 16px;
+}
