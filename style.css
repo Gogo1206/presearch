@@ -681,7 +681,7 @@ h3{
     position: relative;
     cursor: pointer;
     margin: auto;
-    width: 50%;
+    width: 70%;
     margin-bottom: 10px;
 }
 
@@ -715,6 +715,19 @@ h3{
     margin: auto;
     text-align: center;
     padding-top: 80px;
+}
+
+.bio h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bio .row{
+    margin-top: 0%;
+}
+
+.bio .col{
+    margin-top: 0%;
 }
 
 .bio-col{
