@@ -749,3 +749,36 @@ h3{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     cursor: pointer;
 }
+
+.contact{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact h1{
+    margin-bottom: 20px;
+}
+
+.contact a{
+    display: block;
+    text-decoration: none;
+    background: transparent;
+    color: #777;
+    border: 1px solid #000;
+    padding: 12px 34px;
+    font-size: 16px;
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.contact a:hover{
+    border: 1px solid #000;
+    background-color: var(--dark);
+    color: #fff;
+    transition: 0.5s;
+}
